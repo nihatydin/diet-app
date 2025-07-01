@@ -1,24 +1,30 @@
 # Gluten-Free Recipes React App
 
-## Proje Amacı
+## Project Purpose
 
-Bu proje, glutene duyarlı olan kişilerin veya sağlıklı beslenmek isteyenlerin glutensiz tariflere kolayca ulaşmasını sağlamak amacıyla geliştirilmiştir. Spoonacular API kullanılarak glutensiz ve sağlıklı yemek tarifleri listelenir, detayları gösterilir ve besin değerleri kullanıcıya sunulur.
+This project is developed to provide easy access to gluten-free recipes for people who are sensitive to gluten or want to eat healthily. Using the Spoonacular API, gluten-free and healthy recipes are listed, their details are shown, and nutritional values are presented to the user.
 
-## Uygulama Ne İşe Yarar?
+---
 
-- Kullanıcıların glutensiz tarifler arasında arama yapmasını sağlar.
-- Tariflerin içeriği, malzemeleri ve besin değerleri hakkında detaylı bilgi verir.
-- Sağlıklı ve glutensiz beslenmek isteyenlere pratik bir tarif kaynağı sunar.
+## What Does the Application Do?
 
-## Özellikler
+- Allows users to search among gluten-free recipes.
+- Provides detailed information about the content, ingredients, and nutritional values of the recipes.
+- Offers a practical recipe source for those who want to eat healthy and gluten-free.
 
-- Glutensiz tariflerin listelenmesi
-- Tarif detaylarının gösterilmesi (malzemeler, özet, besin değerleri)
-- Tarif arama fonksiyonu
-- Responsive ve kullanıcı dostu arayüz
+---
 
-## Teknolojiler
+## Features
+
+- Listing of gluten-free recipes
+- Displaying recipe details (ingredients, summary, nutritional values)
+- Recipe search functionality
+- Responsive and user-friendly interface
+
+---
+
+## Technologies
 
 - React
-- Axios (API çağrıları için)
+- Axios (for API requests)
 - Spoonacular API
