@@ -50,7 +50,13 @@ const GlutenFreeRecipes = () => {
   };
 
   useEffect(() => {
-    fetchRecipes("Cake"); // ilk açılışta tarifleri getir
+    if (selectedRecipe) {
+      window.scrollTo(0, 0);
+    }
+  }, [selectedRecipe]);
+
+  useEffect(() => {
+    fetchRecipes("dessert"); // ilk açılışta tarifleri getir
   }, []);
 
   const handleSearch = (e) => {
@@ -75,7 +81,7 @@ const GlutenFreeRecipes = () => {
         />
         <button
           type="submit"
-          className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600"
+          className="bg-green-900 text-white px-4 py-2 rounded hover:bg-green-600"
         >
           Search
         </button>
@@ -91,7 +97,7 @@ const GlutenFreeRecipes = () => {
         <div className="border rounded-xl p-4 mb-4 bg-white shadow-lg  w-full mx-auto">
           <button
             onClick={() => setSelectedRecipe(null)}
-            className="bg-green-700 text-white rounded py-1 px-2 mb-2"
+            className="text-green-900 bg-white rounded border-2 py-1 px-2 mb-2"
           >
             ← Back
           </button>
@@ -146,7 +152,7 @@ const GlutenFreeRecipes = () => {
                 </h3>
                 <button
                   onClick={() => fetchRecipeDetails(recipe.id)}
-                  className="mt-2 w-full text-white bg-green-500 p-2 rounded cursor-pointer"
+                  className="mt-2 w-full text-white bg-green-900 p-2 rounded cursor-pointer"
                 >
                   See Details
                 </button>

@@ -6,13 +6,14 @@ function Header() {
   return (
     <div className="flex flex-row items-center justify-between p-4">
       <div>
-        <h2 className="text-2xl font-semibold text-blue-900 tracking-tight">
-          Gluten Free Healthy Recipes
+        <h2 className="text-2xl font-bold text-green-900 tracking-tight">
+          <span className="text-orange-900">Gluten</span>Free Healthy Recipes
         </h2>
       </div>
       <div>
         <FontAwesomeIcon
-          style={{color: "green", fontSize: "30px"}}
+          className="text-green-900"
+          style={{fontSize: "30px"}}
           icon={faLeaf}
         />
       </div>
