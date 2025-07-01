@@ -1,12 +1,24 @@
-# React + Vite
+# Gluten-Free Recipes React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proje Amacı
 
-Currently, two official plugins are available:
+Bu proje, glutene duyarlı olan kişilerin veya sağlıklı beslenmek isteyenlerin glutensiz tariflere kolayca ulaşmasını sağlamak amacıyla geliştirilmiştir. Spoonacular API kullanılarak glutensiz ve sağlıklı yemek tarifleri listelenir, detayları gösterilir ve besin değerleri kullanıcıya sunulur.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Uygulama Ne İşe Yarar?
 
-## Expanding the ESLint configuration
+- Kullanıcıların glutensiz tarifler arasında arama yapmasını sağlar.
+- Tariflerin içeriği, malzemeleri ve besin değerleri hakkında detaylı bilgi verir.
+- Sağlıklı ve glutensiz beslenmek isteyenlere pratik bir tarif kaynağı sunar.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Özellikler
+
+- Glutensiz tariflerin listelenmesi
+- Tarif detaylarının gösterilmesi (malzemeler, özet, besin değerleri)
+- Tarif arama fonksiyonu
+- Responsive ve kullanıcı dostu arayüz
+
+## Teknolojiler
+
+- React
+- Axios (API çağrıları için)
+- Spoonacular API
